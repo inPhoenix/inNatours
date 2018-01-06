@@ -8,7 +8,7 @@
 #### NatOurs
 A simple project to practice CSS
 
-[Live Demo](https://inphoenix.github.io/inNatours/)
+[Live Demo](https://inphoenix.github.io/inNatours/index.html)
             
 ### JS Framework:
 - [ ] React 16
