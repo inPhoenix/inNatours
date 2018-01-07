@@ -1,5 +1,24 @@
 .section-about {
-  background-color: darken($color-grey-light-1, 15%); // remove the darken
+  background-color: $color-grey-light-1; // remove the darken
   padding: 25rem 0;
   margin-top: -20vh;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary, 0.651),
+    rgba($color-primary-dark, 0.589)
+  ),
+  url(../img/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-4deg);
+  margin-top: -13rem;
+
+  & > * {
+    transform: skewY(4deg);
+  }
+
+  
 }

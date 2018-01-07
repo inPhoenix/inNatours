@@ -1,8 +1,6 @@
 .row {
   max-width: $grid-width;
   margin: 0 auto;
-  //margin: 0 2rem;
-  //background: lightskyblue;
 
   &:not(:last-child) {
       margin-bottom: $gutter-vertical;
@@ -22,14 +20,14 @@
   [class^="col-"] {
       float: left;
 
-    //   &:not(:last-child) {
-    //       margin-right: $gutter-horizontal;
+      &:not(:last-child) {
+          margin-right: $gutter-horizontal;
 
-    //       @include respond(tab-port) {
-    //           margin-right: 0;
-    //           margin-bottom: $gutter-vertical-small;
-    //       }
-    //   }
+          @include respond(tab-port) {
+              margin-right: 0;
+              margin-bottom: $gutter-vertical-small;
+          }
+      }
 
       @include respond(tab-port) {
           width: 100% !important;
