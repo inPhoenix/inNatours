@@ -23,7 +23,20 @@ $btn-border-radius: 20px;
   &--white {
     background-color: white;
     color: darkgrey;
+    &::after {
+      background-color: $color-white;
+    }
   }
+
+  &--blue {
+    background-color: darkblue;
+    color: white;
+    &::after {
+      background-color: $color-white;
+    }
+  
+  }
+
 
   &::after {
     content: '';
